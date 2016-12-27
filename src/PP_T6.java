@@ -3,46 +3,46 @@ import java.util.*;
 public class PP_T6 {
     public static void main(String[] args) {
 
-//        System.out.printf("\nЗадание 1\n");
-//        int min;
-//        long t1, t2;
-//        int[] num = new int[4];
+        System.out.printf("\nЗадание 1\n");
+        int min;
+        long t1, t2;
+        int[] num = new int[4];
         Scanner in = new Scanner(System.in);
-//        System.out.printf("\nВведите данные\n");
-//        for (int i=0; i<num.length; i++)
-//            num[i]=in.nextInt();
-//
-//        t1=System.nanoTime();
-//        min=min(num[0],num[1],num[2],num[3]);
-//        System.out.print("\n"+min);
-//        t2=System.nanoTime();
-//        System.out.print("\nВремя 1:"+(t2-t1));
-//
-//        t1=System.nanoTime();
-//        int a, n;
-//
-//        min=min1(num);
-//        System.out.print("\n"+min+"\n");
-//        t2=System.nanoTime();
-//        System.out.print("Время 2:"+(t2-t1));
-//
-//        System.out.printf("\nЗадание 2\n");
-//        System.out.printf("Введите число и его степень\n");
-//        a=in.nextInt();
-//        n=in.nextInt();
-//        System.out.print(pow(a,n));
-//
-//        System.out.printf("\nЗадание 3\n");
+        System.out.printf("\nВведите данные\n");
+        for (int i=0; i<num.length; i++)
+            num[i]=in.nextInt();
+
+        t1=System.nanoTime();
+        min=min(num[0],num[1],num[2],num[3]);
+        System.out.print("\n"+min);
+        t2=System.nanoTime();
+        System.out.print("\nВремя 1:"+(t2-t1));
+
+        t1=System.nanoTime();
+        int a, n;
+
+        min=min1(num);
+        System.out.print("\n"+min+"\n");
+        t2=System.nanoTime();
+        System.out.print("Время 2:"+(t2-t1));
+
+        System.out.printf("\nЗадание 2\n");
+        System.out.printf("Введите число и его степень\n");
+        a=in.nextInt();
+        n=in.nextInt();
+        System.out.print(pow(a,n));
+
+        System.out.printf("\nЗадание 3\n");
         boolean b1 = true, b2 = true;
-//        System.out.print(XOR(b1, b2));
-//
-//        System.out.printf("\nЗадание 4\n");
-//        System.out.printf("\nВведите данные\n");
-//        boolean b3;
-//        b1 = (in.nextInt() != 0);
-//        b2 = (in.nextInt() != 0);
-//        b3 = (in.nextInt() != 0);
-//        System.out.print(Election(b1, b2, b3));
+        System.out.print(XOR(b1, b2));
+
+        System.out.printf("\nЗадание 4\n");
+        System.out.printf("\nВведите данные\n");
+        boolean b3;
+        b1 = (in.nextInt() != 0);
+        b2 = (in.nextInt() != 0);
+        b3 = (in.nextInt() != 0);
+        System.out.print(Election(b1, b2, b3));
 
         System.out.printf("\nЗадание 5\n");
         if (IsPrime(102))
@@ -57,7 +57,8 @@ public class PP_T6 {
         System.out.print(Reverse(123456789));
 
         System.out.printf("\nЗадание 8\n");
-        int n = 100, coin=0;
+        n = 100;
+        int coin=0;
         for (int i=1; i<n; i++) {
             if (IsPalindrome(i))
                 coin++;
@@ -300,10 +301,6 @@ public class PP_T6 {
         else
             return Binomial(n-1,r-1)+Binomial(n-1,r);
     }
-
-//    static int Search (int A[], int n, int x) {
-//
-//    }
 
     static int [] Merge (int[] A, int[] B) {
             int a = 0, b = 0, len = A.length + B.length; // a, b - счетчики в массивах

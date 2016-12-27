@@ -113,52 +113,52 @@ public class Forwhile_cycles {
         }
         System.out.print(s);
 
-//        System.out.printf("\nЗадание 9\n");
-////        Вводится последовательность целых чисел, оканчивающаяся нулем. Определить максимальное.
+        System.out.printf("\nЗадание 9\n");
+//        Вводится последовательность целых чисел, оканчивающаяся нулем. Определить максимальное.
         Scanner in = new Scanner(System.in);
-//        System.out.printf("Введите данные\n");
-//        n=0;
+        System.out.printf("Введите данные\n");
+        n=0;
         int input;
-//        do {
-//            input = in.nextInt();
-//            if (n < input)
-//                n=input;
-//        } while (input!=0);
-//        System.out.print(n);
-//
-//        System.out.printf("\nЗадание 10\n");
-////        Вводится последовательность целых чисел, оканчивающаяся нулем. Определить минимальное не равное нулю.
-//        System.out.printf("Введите данные\n");
-//        n=1;
-//        input = 0;
-//        do {
-//            input = in.nextInt();
-//            if ((input!=0) && (n > input))
-//                n=input;
-//        } while (input!=0);
-//        System.out.print(n);
+        do {
+            input = in.nextInt();
+            if (n < input)
+                n=input;
+        } while (input!=0);
+        System.out.print(n);
 
-//        System.out.printf("\nЗадание 11\n");
-////        Вводится последовательность целых чисел, оканчивающаяся нулем. Определить количество введенных чисел.
-//        System.out.printf("Введите данные\n");
-//        n=0;
-//        input=1;
-//        while (input!=0) {
-//            input = in.nextInt();
-//            n++;
-//        }
-//        System.out.print(n-1);
+        System.out.printf("\nЗадание 10\n");
+//        Вводится последовательность целых чисел, оканчивающаяся нулем. Определить минимальное не равное нулю.
+        System.out.printf("Введите данные\n");
+        n=1;
+        input = 0;
+        do {
+            input = in.nextInt();
+            if ((input!=0) && (n > input))
+                n=input;
+        } while (input!=0);
+        System.out.print(n);
 
-//        System.out.printf("\nЗадание 12\n");
-////        Вводится последовательность целых чисел, оканчивающаяся нулем. Определить сумму введенных чисел.
-//        System.out.printf("Введите данные\n");
-//        n=0;
-//        input=1;
-//        while (input!=0) {
-//            input = in.nextInt();
-//            n+=input;
-//        }
-//        System.out.print(n);
+        System.out.printf("\nЗадание 11\n");
+//        Вводится последовательность целых чисел, оканчивающаяся нулем. Определить количество введенных чисел.
+        System.out.printf("Введите данные\n");
+        n=0;
+        input=1;
+        while (input!=0) {
+            input = in.nextInt();
+            n++;
+        }
+        System.out.print(n-1);
+
+        System.out.printf("\nЗадание 12\n");
+//        Вводится последовательность целых чисел, оканчивающаяся нулем. Определить сумму введенных чисел.
+        System.out.printf("Введите данные\n");
+        n=0;
+        input=1;
+        while (input!=0) {
+            input = in.nextInt();
+            n+=input;
+        }
+        System.out.print(n);
 
         System.out.printf("\nЗадание 13\n");
 //        Напечатайте все точные квадраты натуральных чисел, не превосходящие данного числа n. (например, при вводе 50 программа должна вывести 1 4 9 16 25 36 49).
@@ -221,16 +221,16 @@ public class Forwhile_cycles {
         }
         System.out.print(day);
 
-//        System.out.printf("\nЗадание 18\n");
-////        Вводится последовательность целых чисел до тех пор, пока не будет введено число 0. После ввода числа 0 программа должна завершить свою работу и вывести сумму введенных чисел.
-//        System.out.printf("Введите данные\n");
-//        n=0;
-//        input=1;
-//        while (input!=0) {
-//            input = in.nextInt();
-//            n+=input;
-//        }
-//        System.out.print(n);
+        System.out.printf("\nЗадание 18\n");
+//        Вводится последовательность целых чисел до тех пор, пока не будет введено число 0. После ввода числа 0 программа должна завершить свою работу и вывести сумму введенных чисел.
+        System.out.printf("Введите данные\n");
+        n=0;
+        input=1;
+        while (input!=0) {
+            input = in.nextInt();
+            n+=input;
+        }
+        System.out.print(n);
 
         System.out.printf("\nЗадание 19\n");
 //        По данному натуральному числу n найдите сумму чисел 1+1/1!+1/2!+1/3!+...+1/n!. Количество действий должно быть пропорционально n. Напишите программу, которая считывает значение n и выводит результат в виде действительного числа. К чему будет стремиться эта сумма при росте числа n?
